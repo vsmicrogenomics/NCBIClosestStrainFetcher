@@ -18,7 +18,7 @@ The script begins by reading the fastani_reference column from the specified inp
 The core functionality revolves around the fetch_strain_info function which manages the querying and extraction process for each assembly identifier. Any identifier labeled "N/A" or empty is handled accordingly, outputting "N/A" for strain details.
 
 Test files:
-Ensure to include test data in the test directory (if you have any) for verification purposes. This will aid users and collaborators in understanding the expected input format and examining the script's output format.
+The test directory contains input and output sub-directories containing test files for the NCBIClosestStrainFetcher.py script. These files are used to verify that the script is working correctly.
 
 Acknowledgements:
 This script, NCBIClosestStrainFetcher.py, is tailored for researchers and bioinformaticians aiming to cross-reference their genome assembly data with the NCBI database, offering a clear and consolidated view of the closest reference strains.
