@@ -1,6 +1,6 @@
 # NCBIClosestStrainFetcher
 
-NCBIClosestStrainFetcher.py: This script is a Python utility designed to query the NCBI database for closest reference strain information using genome assembly identifiers extracted from an input TSV file (gtdbtk.bac120.summary.tsv). It outputs the fetched details in a structured TSV format.
+NCBIClosestStrainFetcher.py: This script is a Python utility designed to query the NCBI database for closest reference strain information using genome assembly identifiers extracted from an TSV file (gtdbtk.bac120.summary.tsv) of the GTDB-TK pipeline. It outputs the fetched details in a structured TSV format.
 
 Prerequisites:
 
